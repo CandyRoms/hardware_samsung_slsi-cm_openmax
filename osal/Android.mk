@@ -76,7 +76,7 @@ ifeq ($(TARGET_BOARD_PLATFORM),exynos4)
 LOCAL_CFLAGS += -DUSE_MFC5X_ALIGNMENT
 endif
 
-LOCAL_SHARED_LIBRARIES := libhardware libnativewindow
+LOCAL_SHARED_LIBRARIES := libhardware libvirtualdisplay
 LOCAL_STATIC_LIBRARIES := liblog libcutils libarect libExynosVideoApi
 
 LOCAL_C_INCLUDES := \
